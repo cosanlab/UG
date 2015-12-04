@@ -8,7 +8,7 @@ TurkServer.Assigners.UGAssigner = (function(superClass) {
 
   function UGAssigner(groupSize){
     this.groupSize = groupSize;
-    //return UGAssigner.__super__constructor.apply(this,arguments);
+    //return UGAssigner.__super__.constructor.apply(this,arguments);
   }
 
   UGAssigner.prototype.initialize = function(){
